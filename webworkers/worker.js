@@ -8,7 +8,7 @@ onmessage = function(e)
 		{
 			result*=e.data[0];
 		}
-	var workerResult = 'Result: ' + result;
+	var workerResult = 'Wynik: ' + result;
 	console.log('Wysłanie danych');
 	postMessage(workerResult);
 }
